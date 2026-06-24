@@ -90,7 +90,7 @@
             #binding-cells = <0>;
             bindings = <&hln 3 0>, <&kp MINUS>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <350>;
         };
     };
 
