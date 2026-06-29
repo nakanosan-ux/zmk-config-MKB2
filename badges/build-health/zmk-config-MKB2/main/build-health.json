@@ -5,9 +5,9 @@
   "status": "passing",
   "raw_status": "success",
   "color": "#2ea44f",
-  "sha": "605187a609269e7bd6a53f41e4d1e1dec0102f9b",
-  "run_id": "28335691861",
-  "run_number": "24",
-  "run_url": "https://github.com/nakanosan-ux/zmk-config-MKB2/actions/runs/28335691861",
-  "generated_at": "2026-06-28T21:00:40Z"
+  "sha": "4c81f388c59c3776268bfd010f79a9badabfe97e",
+  "run_id": "28403408915",
+  "run_number": "25",
+  "run_url": "https://github.com/nakanosan-ux/zmk-config-MKB2/actions/runs/28403408915",
+  "generated_at": "2026-06-29T21:25:56Z"
 }
