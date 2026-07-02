@@ -944,9 +944,9 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
 <text class="tap" x="26" y="26">TRANS</text>
 </g>
-<g class="key keypos-31 transparent" transform="translate(654 168) rotate(0 -624 -104)">
+<g class="key keypos-31 " transform="translate(654 168) rotate(0 -624 -104)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="26">TRANS</text>
+<text class="tap" x="26" y="26">LG(TAB)</text>
 </g>
 <g class="key keypos-32 " transform="translate(706 168) rotate(0 -676 -104)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
