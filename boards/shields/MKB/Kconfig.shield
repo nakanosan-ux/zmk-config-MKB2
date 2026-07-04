@@ -45,3 +45,6 @@ config SHIELD_MKB_L_KEY
 
 config SHIELD_MKB_L_ENC_ECDBG
     def_bool $(shields_list_contains,MKB_L_ENC_ECDBG)
+
+config SHIELD_MKB_L_ENC_ECDBG_AML
+    def_bool $(shields_list_contains,MKB_L_ENC_ECDBG_AML)
