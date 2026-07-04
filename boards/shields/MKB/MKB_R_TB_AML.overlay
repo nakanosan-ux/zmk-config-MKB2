@@ -73,8 +73,16 @@
 
 &zip_temp_layer {
     excluded-positions = <
+        7  // U
+        8  // I
+        9  // O
+
         19 // J
         20 // K
         21 // L
+
+        31 // M
+        32 // <
+        33 // >
     >;
 };
