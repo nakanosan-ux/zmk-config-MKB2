@@ -16,6 +16,8 @@ manifest:
       url-base: https://github.com/petejohanson
     - name: cormoran
       url-base: https://github.com/cormoran
+    - name: yamaryu211
+      url-base: https://github.com/yamaryu211
   projects:
     - name: zmk
       # remote: zmkfirmware
@@ -46,6 +48,10 @@ manifest:
     - name: zmk-driver-MLX90393
       remote: te9no
       revision: main
+    - name: zmk-input-processor-temp-layer-threshold
+      remote: yamaryu211
+      revision: main
+
 
     - name: zmk-module-runtime-input-processor
       remote: te9no
