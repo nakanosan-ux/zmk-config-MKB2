@@ -48,3 +48,6 @@ config SHIELD_MKB_L_ENC_ECDBG
 
 config SHIELD_MKB_L_ENC_ECDBG_AML
     def_bool $(shields_list_contains,MKB_L_ENC_ECDBG_AML)
+
+config SHIELD_MKB_L_ENC_ECDBG_AML_TH
+    def_bool $(shields_list_contains,MKB_L_ENC_ECDBG_AML_TH)
