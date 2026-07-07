@@ -26,6 +26,11 @@ include:
     snippet: Default_AML zmk-usb-logging studio-rpc-usb-uart
     artifact-name: MKB_L_MODULE_ENC_ECDBG_AML
 
+  - board: seeeduino_xiao_ble
+    shield: MKB_L_Base MKB_L_ENC_ECDBG_AML_TH rgbled_adapter nice_oled
+    snippet: Default_AML_TH zmk-usb-logging studio-rpc-usb-uart
+    artifact-name: MKB_L_MODULE_ENC_ECDBG_AML_TH
+
   # - board: seeeduino_xiao_ble
   #   shield: MKB_L_Base MKB_L_RZT rgbled_adapter nice_oled
   #   snippet: Default zmk-usb-logging studio-rpc-usb-uart
