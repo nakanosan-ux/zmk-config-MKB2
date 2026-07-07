@@ -1,0 +1,22 @@
+/* ECDBG encoder module */
+
+&left_encoder {
+    status = "okay";
+    a-gpios = <&gpio1 13 GPIO_ACTIVE_HIGH>;
+    b-gpios = <&gpio1 12 GPIO_ACTIVE_HIGH>;
+    steps = <60>;
+};
+
+&sensors {
+    triggers-per-rotation = <15>;
+};
+
+/delete-node/ &kscan2;
+
+/ {
+    kscan2: kscan2 {
+        compatible = "zmk,kscan-gpio-direct";
+        wakeup-source;
+        input-gpios = <&gpio1 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+    };
+};
