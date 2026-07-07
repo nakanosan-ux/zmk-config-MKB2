@@ -7,11 +7,11 @@
         status = "okay";
         device = <&trackball_split>;
 
-        input-processors =
-            <&zip_temp_layer 3 10000>,
-            <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
-            <&zip_xy_scaler 2 3>,
-            <&mouse_runtime_input_processor &scroll_runtime_input_processor>;
+input-processors =
+    <&zip_temp_layer 3 2000>,
+    <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
+    <&zip_xy_scaler 2 3>,
+    <&mouse_runtime_input_processor &scroll_runtime_input_processor>;
 
         scroll {
             layers = <4>;
@@ -88,9 +88,12 @@
 };
 
 &zip_temp_layer {
+    require-prior-idle-ms = <300>;
+
     excluded-positions = <
         7  8  9
         19 20 21
         31 32 33
     >;
+};
 };
