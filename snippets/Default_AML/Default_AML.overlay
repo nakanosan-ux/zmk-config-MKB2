@@ -91,9 +91,14 @@ input-processors =
     require-prior-idle-ms = <300>;
 
     excluded-positions = <
-        7  8  9
-        19 20 21
-        31 32 33
+　　　　 7  8  9      // U I O
+        19 20 21     // J K L
+
+        24           // LSHFT
+
+        31 32 33     // M < >
+
+        36           // LCTRL
     >;
 };
 };
