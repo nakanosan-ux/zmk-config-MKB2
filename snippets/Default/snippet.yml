@@ -1,3 +1,4 @@
 name: Default
 append:
   EXTRA_DTC_OVERLAY_FILE: Default.overlay
+  EXTRA_CONF_FILE: Default.conf
