@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "label": "build",
-  "message": "skipped",
-  "color": "6a737d",
+  "message": "failing",
+  "color": "d73a49",
   "namedLogo": "githubactions"
 }

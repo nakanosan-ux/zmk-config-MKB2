@@ -2,12 +2,12 @@
   "repository": "nakanosan-ux/zmk-config-MKB2",
   "branch": "main",
   "target": "all",
-  "status": "skipped",
-  "raw_status": "skipped",
-  "color": "#6a737d",
-  "sha": "b198f718550f4fe05d9ea8597a0ef5d8c03a1126",
-  "run_id": "29831398003",
-  "run_number": "107",
-  "run_url": "https://github.com/nakanosan-ux/zmk-config-MKB2/actions/runs/29831398003",
-  "generated_at": "2026-07-21T12:47:18Z"
+  "status": "failing",
+  "raw_status": "failure",
+  "color": "#d73a49",
+  "sha": "42b493113b94f64bd4cdf1f3654a351cce892021",
+  "run_id": "29832402815",
+  "run_number": "108",
+  "run_url": "https://github.com/nakanosan-ux/zmk-config-MKB2/actions/runs/29832402815",
+  "generated_at": "2026-07-21T13:08:28Z"
 }
