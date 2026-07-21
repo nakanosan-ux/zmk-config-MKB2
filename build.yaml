@@ -44,7 +44,7 @@ include:
 
   - board: seeeduino_xiao_ble
     shield: MKB_R_Base MKB_R_PAW3222 rgbled_adapter nice_oled
-    snippet: Default zmk-usb-logging studio-rpc-usb-uart
+    snippet: zmk-usb-logging studio-rpc-usb-uart
     artifact-name: MKB_R_MODULE_PAW3222
 
   # Settings Reset
