@@ -12,6 +12,9 @@ config SHIELD_MKB_R_TB
 
 config SHIELD_MKB_R_TBv3
     def_bool $(shields_list_contains,MKB_R_TBv3)
+
+config SHIELD_MKB_R_PAW3222
+    def_bool $(shields_list_contains,MKB_R_PAW3222)
     
 config SHIELD_MKB_R_RZT
     def_bool $(shields_list_contains,MKB_R_RZT)
