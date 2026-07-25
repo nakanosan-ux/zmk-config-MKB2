@@ -43,7 +43,7 @@
         };
 
         mouselayer {
-            bindings = <&tog 3>;
+            bindings = <&kp MINUS>;
             key-positions = <22 21>;
         };
 
@@ -101,7 +101,7 @@
             label = "Def";
             bindings = <
 &lt 1 GRAVE  &kp Q      &kp W     &kp E      &kp R      &kp T            &kp Y          &kp U          &kp I            &kp O          &kp P              &kp BACKSPACE
-&lt 5 TAB    &kp A      &kp S     &kp D      &kp F      &kp G            &kp H          &kp J          &kp K            &kp L          &lt 3 MINUS        &kp ENTER
+&lt 5 TAB    &kp A      &kp S     &kp D      &kp F      &kp G            &kp H          &kp J          &kp K            &kp L          &mo 3              &kp ENTER
 &kp LSHFT    &kp Z      &kp X     &kp C      &kp V      &kp B            &kp N          &kp M          &kp COMMA        &mt RCTRL DOT  &kp UP             &kp RIGHT_SHIFT
 &kp LCTRL    &kp LGUI   &kp LALT             &kp DEL    &lt 2 SPACE      &kp BACKSPACE  &kp ENTER                       &kp LEFT       &kp DOWN           &kp RIGHT
 &kp LC(Z)    &kp LC(C)  &none     &kp LC(V)  &kp LC(Y)                                  &kp C_BRI_DEC  &kp C_VOLUME_UP  &none          &kp C_VOLUME_DOWN  &kp C_BRI_UP
@@ -128,12 +128,12 @@
         num_layer {
             label = "Num";
             bindings = <
-&kp ESCAPE  &kp RIGHT_BRACE  &kp BACKSLASH  &kp UP_ARROW    &kp LS(N8)       &kp LS(N9)             &kp SLASH     &kp N7        &kp N8        &kp N9        &kp MINUS            &kp EQUAL
-&trans      &kp LEFT_BRACE   &kp LEFT       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LS(N7)             &kp LS(APOS)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LS(SEMI)         &kp LS(INTERNATIONAL_1)
-&trans      &kp SEMICOLON    &kp SQT        &kp QUESTION    &kp RIGHT_BRACE  &kp LS(BACKSLASH)      &kp UNDER     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp INTERNATIONAL_3  &trans
-&trans      &trans           &trans                         &trans           &trans                 &trans        &kp N0                      &kp PERIOD    &trans               &trans
-&kp LEFT    &trans           &none          &kp DOWN        &kp RIGHT                                             &kp HOME      &kp PG_UP     &none         &kp PG_DN            &kp END
-                                            &kp A                                                                               &kp B
+&kp ESCAPE  &kp RBKT       &kp BACKSLASH  &kp UP_ARROW    &kp LS(N8)       &kp LS(N9)             &kp SLASH     &kp N7        &kp N8        &kp N9        &kp MINUS            &kp EQUAL
+&trans      &kp LBKT       &kp LEFT       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LS(N7)             &kp LS(APOS)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LS(SEMI)         &kp LS(INTERNATIONAL_1)
+&trans      &kp SEMICOLON  &kp SQT        &kp QUESTION    &kp RIGHT_BRACE  &kp LS(BACKSLASH)      &kp UNDER     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp INTERNATIONAL_3  &trans
+&trans      &trans         &trans                         &trans           &trans                 &trans        &kp N0                      &kp PERIOD    &trans               &trans
+&kp LEFT    &trans         &none          &kp DOWN        &kp RIGHT                                             &kp HOME      &kp PG_UP     &none         &kp PG_DN            &kp END
+                                          &kp A                                                                               &kp B
             >;
 
             sensor-bindings =
