@@ -117,8 +117,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-22 " transform="translate(810 116) rotate(0 -780 -52)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="20">-</text>
-<text class="hold" x="26" y="37">LT 3</text>
+<text class="tap" x="26" y="26">MO 3</text>
 </g>
 <g class="key keypos-23 " transform="translate(862 116) rotate(0 -832 -52)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
@@ -287,8 +286,8 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <polyline points="836,142 784,142"/>
 <circle class="combo-dot" cx="836" cy="142" r="3.2"/>
 <circle class="combo-dot" cx="784" cy="142" r="3.2"/>
-<rect class="combo-label-bg" x="787.5" y="121" width="45" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="810" y="129">TOG 3</text>
+<rect class="combo-label-bg" x="795" y="121" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="810" y="129">-</text>
 </g>
 <g class="combo combo-numlayer">
 <polyline points="680,90 732,90 784,90"/>
@@ -552,8 +551,8 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <polyline points="836,142 784,142"/>
 <circle class="combo-dot" cx="836" cy="142" r="3.2"/>
 <circle class="combo-dot" cx="784" cy="142" r="3.2"/>
-<rect class="combo-label-bg" x="787.5" y="121" width="45" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="810" y="129">TOG 3</text>
+<rect class="combo-label-bg" x="795" y="121" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="810" y="129">-</text>
 </g>
 <g class="combo combo-numlayer">
 <polyline points="680,90 732,90 784,90"/>
@@ -573,7 +572,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-1 " transform="translate(82 64) rotate(0 -52 0)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="26">RIGHT_BRACE</text>
+<text class="tap" x="26" y="26">]</text>
 </g>
 <g class="key keypos-2 " transform="translate(134 64) rotate(0 -104 0)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
@@ -621,7 +620,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-13 " transform="translate(82 116) rotate(0 -52 -52)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="26">LEFT_BRACE</text>
+<text class="tap" x="26" y="26">[</text>
 </g>
 <g class="key keypos-14 " transform="translate(134 116) rotate(0 -104 -52)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
@@ -803,8 +802,8 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <polyline points="836,142 784,142"/>
 <circle class="combo-dot" cx="836" cy="142" r="3.2"/>
 <circle class="combo-dot" cx="784" cy="142" r="3.2"/>
-<rect class="combo-label-bg" x="787.5" y="121" width="45" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="810" y="129">TOG 3</text>
+<rect class="combo-label-bg" x="795" y="121" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="810" y="129">-</text>
 </g>
 <g class="combo combo-numlayer">
 <polyline points="680,90 732,90 784,90"/>
@@ -1057,8 +1056,8 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <polyline points="836,142 784,142"/>
 <circle class="combo-dot" cx="836" cy="142" r="3.2"/>
 <circle class="combo-dot" cx="784" cy="142" r="3.2"/>
-<rect class="combo-label-bg" x="787.5" y="121" width="45" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="810" y="129">TOG 3</text>
+<rect class="combo-label-bg" x="795" y="121" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="810" y="129">-</text>
 </g>
 <g class="combo combo-numlayer">
 <polyline points="680,90 732,90 784,90"/>
@@ -1311,8 +1310,8 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <polyline points="836,142 784,142"/>
 <circle class="combo-dot" cx="836" cy="142" r="3.2"/>
 <circle class="combo-dot" cx="784" cy="142" r="3.2"/>
-<rect class="combo-label-bg" x="787.5" y="121" width="45" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="810" y="129">TOG 3</text>
+<rect class="combo-label-bg" x="795" y="121" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="810" y="129">-</text>
 </g>
 <g class="combo combo-numlayer">
 <polyline points="680,90 732,90 784,90"/>
@@ -1569,8 +1568,8 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <polyline points="836,142 784,142"/>
 <circle class="combo-dot" cx="836" cy="142" r="3.2"/>
 <circle class="combo-dot" cx="784" cy="142" r="3.2"/>
-<rect class="combo-label-bg" x="787.5" y="121" width="45" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="810" y="129">TOG 3</text>
+<rect class="combo-label-bg" x="795" y="121" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="810" y="129">-</text>
 </g>
 <g class="combo combo-numlayer">
 <polyline points="680,90 732,90 784,90"/>
@@ -1820,8 +1819,8 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <polyline points="836,142 784,142"/>
 <circle class="combo-dot" cx="836" cy="142" r="3.2"/>
 <circle class="combo-dot" cx="784" cy="142" r="3.2"/>
-<rect class="combo-label-bg" x="787.5" y="121" width="45" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="810" y="129">TOG 3</text>
+<rect class="combo-label-bg" x="795" y="121" width="30" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="810" y="129">-</text>
 </g>
 <g class="combo combo-numlayer">
 <polyline points="680,90 732,90 784,90"/>
