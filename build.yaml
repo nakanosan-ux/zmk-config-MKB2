@@ -47,6 +47,17 @@ include:
     snippet: zmk-usb-logging studio-rpc-usb-uart
     artifact-name: MKB_R_MODULE_PAW3222
 
+  # Daily-use builds: no USB logging or Studio RPC
+  - board: seeeduino_xiao_ble
+    shield: MKB_L_Base MKB_L_ENC_ECDBG rgbled_adapter nice_oled
+    snippet: Default NOLOG
+    artifact-name: MKB_L_MODULE_ENC_ECDBG_NOLOG
+
+  - board: seeeduino_xiao_ble
+    shield: MKB_R_Base MKB_R_TB rgbled_adapter nice_oled
+    snippet: NOLOG
+    artifact-name: MKB_R_MODULE_TBv4_NOLOG
+
   # Settings Reset
   - board: seeeduino_xiao_ble
     shield: settings_reset
