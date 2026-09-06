@@ -23,6 +23,7 @@ on:
       - "build.yaml"
       - "zephyr/module.yml"
       - ".github/workflows/build.yml"
+      - ".github/workflows/build-zmk-firmware.yml"
 
 permissions:
   contents: write
@@ -31,7 +32,7 @@ permissions:
 
 jobs:
   build:
-    uses: te9no/zmk-workspace/.github/workflows/build-zmk-firmware.yml@main
+    uses: ./.github/workflows/build-zmk-firmware.yml
     permissions:
       contents: write
       actions: read
