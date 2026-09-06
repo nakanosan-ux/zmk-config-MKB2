@@ -1,5 +1,5 @@
 # Based on te9no/zmk-workspace build-zmk-firmware.yml at da84eb3eb817ce8943a18204ab5ab0a078e2156a.
-# Local copy adds container Git trust setup before provenance capture.
+# Local fixes: container Git trust and Bash for provenance verification.
 name: 🧭 Build ZMK firmware
 
 on:
@@ -450,6 +450,7 @@ jobs:
           fi
 
       - name: Verify inputs and record firmware provenance
+        shell: bash
         env:
           TARGET_JSON: ${{ toJSON(matrix) }}
         run: |
