@@ -1,11 +1,11 @@
 {
   "artifact": {
-    "name": "MKB_R_MODULE_TBv4.uf2",
-    "sha256": "15cccebff0e89011cb4284c4c1f8c9eadd4b6816ad89b2d5ef22db67540b3c80"
+    "name": "MKB_R_MODULE_PAW3222_NOLOG.uf2",
+    "sha256": "1e46be6d2a083957e114952e7b09ef1dc1439784bbecb98583db1bd340e737a5"
   },
   "generated": {
-    ".config": "3dc7b2e7522dff9de2dabeddfa8d98e1b1898a05dc53ac1e54cac9d49a74bdfe",
-    "zephyr.dts": "af8fff427dede26443f8f10b79d9fde3a7daddb9b8d470518d894680b45fabeb"
+    ".config": "237912ac06c996fa03a716c84f05104611f975455304ee077144a9f534db4d09",
+    "zephyr.dts": "f2478ce713348761f6f70282727f84e81d2d28995726a434860e54b1cfd7ba33"
   },
   "inputs": {
     "dependencies": {
@@ -338,9 +338,9 @@
   "run_id": "34651178767",
   "schema": 1,
   "target": {
-    "artifact-name": "MKB_R_MODULE_TBv4",
+    "artifact-name": "MKB_R_MODULE_PAW3222_NOLOG",
     "board": "seeeduino_xiao_ble",
-    "shield": "MKB_R_Base MKB_R_TB rgbled_adapter nice_oled",
-    "snippet": "zmk-usb-logging studio-rpc-usb-uart"
+    "shield": "MKB_R_Base MKB_R_PAW3222 rgbled_adapter nice_oled",
+    "snippet": "NOLOG"
   }
 }
