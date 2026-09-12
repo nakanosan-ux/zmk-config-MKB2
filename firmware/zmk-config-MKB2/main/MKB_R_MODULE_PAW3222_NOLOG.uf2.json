@@ -1,10 +1,10 @@
 {
   "artifact": {
     "name": "MKB_R_MODULE_PAW3222_NOLOG.uf2",
-    "sha256": "1e46be6d2a083957e114952e7b09ef1dc1439784bbecb98583db1bd340e737a5"
+    "sha256": "d1111dd6d12bb2738fc2aa0e3b10d43a751ae198216bcd0da6e11d5a8902d2b5"
   },
   "generated": {
-    ".config": "237912ac06c996fa03a716c84f05104611f975455304ee077144a9f534db4d09",
+    ".config": "dcbae9df011e66a44b9a3931961900895c352e34513ffe6b660fc56ad7689cce",
     "zephyr.dts": "f2478ce713348761f6f70282727f84e81d2d28995726a434860e54b1cfd7ba33"
   },
   "inputs": {
@@ -323,7 +323,7 @@
       }
     },
     "source": {
-      "commit": "68bf232e032c15a8880aeeaf5132e7b345c71ad8",
+      "commit": "cf0ac4b948781beb52fc596259765f3e049e0829",
       "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "dirty": false,
       "untracked": {}
@@ -335,12 +335,12 @@
       "untracked": {}
     }
   },
-  "run_id": "34669027819",
+  "run_id": "34690382978",
   "schema": 1,
   "target": {
     "artifact-name": "MKB_R_MODULE_PAW3222_NOLOG",
     "board": "seeeduino_xiao_ble",
-    "shield": "MKB_R_Base MKB_R_PAW3222 rgbled_adapter nice_oled",
+    "shield": "MKB_R_Base MKB_R_PAW3222 rgbled_adapter",
     "snippet": "NOLOG"
   }
 }

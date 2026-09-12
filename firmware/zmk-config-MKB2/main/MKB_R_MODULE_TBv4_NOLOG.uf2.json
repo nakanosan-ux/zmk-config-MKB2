@@ -1,10 +1,10 @@
 {
   "artifact": {
     "name": "MKB_R_MODULE_TBv4_NOLOG.uf2",
-    "sha256": "3ead87d97228431c2d49d21c55174fa7a9d29e6925abab219981ff3cfbadb5aa"
+    "sha256": "2acb909b613d3a21345252995673ed1da0cce03f17310f614fee9954fa17b158"
   },
   "generated": {
-    ".config": "ca5040024f3e165a8d8cf747461eb8baa44e3d40975d151f5e235250f4a39aeb",
+    ".config": "b8a57ca5099ff5ff26d9f7fe88925e4e8d2fc9ef7fdca9cc81db818cf3b08a00",
     "zephyr.dts": "89e053f82ef3cfa611fe814104868c6f30ff9eeb7a0a221109b1e185451e5ee8"
   },
   "inputs": {
@@ -323,7 +323,7 @@
       }
     },
     "source": {
-      "commit": "68bf232e032c15a8880aeeaf5132e7b345c71ad8",
+      "commit": "cf0ac4b948781beb52fc596259765f3e049e0829",
       "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "dirty": false,
       "untracked": {}
@@ -335,12 +335,12 @@
       "untracked": {}
     }
   },
-  "run_id": "34669027819",
+  "run_id": "34690382978",
   "schema": 1,
   "target": {
     "artifact-name": "MKB_R_MODULE_TBv4_NOLOG",
     "board": "seeeduino_xiao_ble",
-    "shield": "MKB_R_Base MKB_R_TB rgbled_adapter nice_oled",
+    "shield": "MKB_R_Base MKB_R_TB rgbled_adapter",
     "snippet": "NOLOG"
   }
 }

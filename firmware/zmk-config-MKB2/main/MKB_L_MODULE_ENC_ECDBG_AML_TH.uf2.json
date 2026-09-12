@@ -1,10 +1,10 @@
 {
   "artifact": {
     "name": "MKB_L_MODULE_ENC_ECDBG_AML_TH.uf2",
-    "sha256": "d8e263714ff6a8baac6163f92870913335a72d424fdb5381d8f5207ad85488b3"
+    "sha256": "efcad60b1bb9047553dd3ebf81a187ff8e216b6ddacc4eb1e114907f9764a2d9"
   },
   "generated": {
-    ".config": "4583eac4474bdd573ca51eb66dc0859b13193141b741e5c078ec07bddd66abfb",
+    ".config": "55df5716c8b09f1711216b8c6776b7d3eafcc8aed4bf204d8b57ef5cbd17e155",
     "zephyr.dts": "b3674e8367c18619969559176fafd4dc109805b4d2e830d1c70e6e5a714272b0"
   },
   "inputs": {
@@ -323,7 +323,7 @@
       }
     },
     "source": {
-      "commit": "68bf232e032c15a8880aeeaf5132e7b345c71ad8",
+      "commit": "cf0ac4b948781beb52fc596259765f3e049e0829",
       "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "dirty": false,
       "untracked": {}
@@ -335,12 +335,12 @@
       "untracked": {}
     }
   },
-  "run_id": "34669027819",
+  "run_id": "34690382978",
   "schema": 1,
   "target": {
     "artifact-name": "MKB_L_MODULE_ENC_ECDBG_AML_TH",
     "board": "seeeduino_xiao_ble",
-    "shield": "MKB_L_Base MKB_L_ENC_ECDBG_AML_TH rgbled_adapter nice_oled",
+    "shield": "MKB_L_Base MKB_L_ENC_ECDBG_AML_TH rgbled_adapter",
     "snippet": "Default_AML_TH zmk-usb-logging studio-rpc-usb-uart"
   }
 }

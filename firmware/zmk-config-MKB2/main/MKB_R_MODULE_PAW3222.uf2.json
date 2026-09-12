@@ -1,10 +1,10 @@
 {
   "artifact": {
     "name": "MKB_R_MODULE_PAW3222.uf2",
-    "sha256": "29e0766d8be3f40c0ab16f6afdf5b923c6c7f2f0b5f2e9946bdeada47b55c3f3"
+    "sha256": "5dee2c0e3658db6ce88b888d56378915c5d3de11c370a923aaba1a3657ffbba3"
   },
   "generated": {
-    ".config": "4f1163a9f27f8334b9d637bbc88b032d35a05f98284a211a704aa31bbe539ca4",
+    ".config": "f47292c50f2d945e2a253da24f64c7415f5cb3a41c0f1ab5f7462a93dcc9b895",
     "zephyr.dts": "7c111e21a9960065898af05c291aca98117526c3eb3243f8d4d479411e21f1b1"
   },
   "inputs": {
@@ -323,7 +323,7 @@
       }
     },
     "source": {
-      "commit": "68bf232e032c15a8880aeeaf5132e7b345c71ad8",
+      "commit": "cf0ac4b948781beb52fc596259765f3e049e0829",
       "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "dirty": false,
       "untracked": {}
@@ -335,12 +335,12 @@
       "untracked": {}
     }
   },
-  "run_id": "34669027819",
+  "run_id": "34690382978",
   "schema": 1,
   "target": {
     "artifact-name": "MKB_R_MODULE_PAW3222",
     "board": "seeeduino_xiao_ble",
-    "shield": "MKB_R_Base MKB_R_PAW3222 rgbled_adapter nice_oled",
+    "shield": "MKB_R_Base MKB_R_PAW3222 rgbled_adapter",
     "snippet": "zmk-usb-logging studio-rpc-usb-uart"
   }
 }
