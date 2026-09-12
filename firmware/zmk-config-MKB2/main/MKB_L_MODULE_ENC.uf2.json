@@ -1,10 +1,10 @@
 {
   "artifact": {
     "name": "MKB_L_MODULE_ENC.uf2",
-    "sha256": "dec25d9376d6c26f8d682d46dc98af7b60d227ecd983c8a9f27cf233c7814fb6"
+    "sha256": "9619c9c45f6ae8b1cc5b976f16a766545cce4e7048b015b205ea52b2dc0cf7f1"
   },
   "generated": {
-    ".config": "16f9ba01275ae82ac26e575f800899f842ff2aec6b3c8832317b2bb8a508770d",
+    ".config": "74f4687e3ba1482bf960eca3c8b3c081f18b0cc3e3de76b902b5e80798e6acd3",
     "zephyr.dts": "f3d33bd390e681e125489e1c11eec67c7f357e6b33f17d1427a021ea7b52ef7a"
   },
   "inputs": {
@@ -323,19 +323,19 @@
       }
     },
     "source": {
-      "commit": "b324d80568379e21c3175275d1773a33f911e4a1",
+      "commit": "68bf232e032c15a8880aeeaf5132e7b345c71ad8",
       "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "dirty": false,
       "untracked": {}
     },
     "workspace_tools": {
-      "commit": "da84eb3eb817ce8943a18204ab5ab0a078e2156a",
+      "commit": "a49f67f5ab5392d45bb3209d68f0f17594f62d9a",
       "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "dirty": false,
       "untracked": {}
     }
   },
-  "run_id": "34651178767",
+  "run_id": "34669027819",
   "schema": 1,
   "target": {
     "artifact-name": "MKB_L_MODULE_ENC",
