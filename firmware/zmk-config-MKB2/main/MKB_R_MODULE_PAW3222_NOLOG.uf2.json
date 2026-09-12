@@ -1,10 +1,10 @@
 {
   "artifact": {
     "name": "MKB_R_MODULE_PAW3222_NOLOG.uf2",
-    "sha256": "d1111dd6d12bb2738fc2aa0e3b10d43a751ae198216bcd0da6e11d5a8902d2b5"
+    "sha256": "4b0f3d185e4f02a74b9ec2d9ed5aa44fc8943f270be44cc6a6c2e757c19d3b2e"
   },
   "generated": {
-    ".config": "dcbae9df011e66a44b9a3931961900895c352e34513ffe6b660fc56ad7689cce",
+    ".config": "e966e75fa07ead201782763fb55b9cf967fc309d58d107b883d56ee1078628a1",
     "zephyr.dts": "f2478ce713348761f6f70282727f84e81d2d28995726a434860e54b1cfd7ba33"
   },
   "inputs": {
@@ -323,7 +323,7 @@
       }
     },
     "source": {
-      "commit": "cf0ac4b948781beb52fc596259765f3e049e0829",
+      "commit": "dae6532494ff04327cda1e63bb7fdaa8cf5b74ba",
       "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "dirty": false,
       "untracked": {}
@@ -335,7 +335,7 @@
       "untracked": {}
     }
   },
-  "run_id": "34690382978",
+  "run_id": "34713686821",
   "schema": 1,
   "target": {
     "artifact-name": "MKB_R_MODULE_PAW3222_NOLOG",

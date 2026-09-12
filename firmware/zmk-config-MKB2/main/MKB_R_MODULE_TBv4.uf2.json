@@ -1,10 +1,10 @@
 {
   "artifact": {
     "name": "MKB_R_MODULE_TBv4.uf2",
-    "sha256": "7f342e0c955817d81da09988cf907d639534a96b9fbb52a9590b06b0c4947569"
+    "sha256": "066b517a2767c6e3fc3b7e217ed60aab9aa0e55ea005c5d5d037eacfd7e76a88"
   },
   "generated": {
-    ".config": "3837e2dabd180008c56dd0a9ba3cafd4d86db051e154af29596f32c6ec52165f",
+    ".config": "da6e4f9ef85fa58015f727ccc5217f17944221951f0c2afe14c28e052f89f274",
     "zephyr.dts": "af8fff427dede26443f8f10b79d9fde3a7daddb9b8d470518d894680b45fabeb"
   },
   "inputs": {
@@ -323,7 +323,7 @@
       }
     },
     "source": {
-      "commit": "cf0ac4b948781beb52fc596259765f3e049e0829",
+      "commit": "dae6532494ff04327cda1e63bb7fdaa8cf5b74ba",
       "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "dirty": false,
       "untracked": {}
@@ -335,7 +335,7 @@
       "untracked": {}
     }
   },
-  "run_id": "34690382978",
+  "run_id": "34713686821",
   "schema": 1,
   "target": {
     "artifact-name": "MKB_R_MODULE_TBv4",
