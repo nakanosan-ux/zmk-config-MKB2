@@ -1,11 +1,11 @@
 {
   "artifact": {
     "name": "MKB_R_MODULE_PAW3222.uf2",
-    "sha256": "2323e76741a9defc0a01959d765b9abea9685f0e2b5b156c64bf9faf18a1b55f"
+    "sha256": "00958906be674073f6c1c197b7fc302121982c6bb56ccdf0786c0c4fa59152ca"
   },
   "generated": {
     ".config": "7ad0bff901443516dd74ee1bcc2afde0a6ef234254efdcdf9a6b2415205ea71f",
-    "zephyr.dts": "7c111e21a9960065898af05c291aca98117526c3eb3243f8d4d479411e21f1b1"
+    "zephyr.dts": "7aaef925559371d534845b66c22b4378df675a711e99cf5dbc6c0b8a89be40d5"
   },
   "inputs": {
     "dependencies": {
@@ -323,7 +323,7 @@
       }
     },
     "source": {
-      "commit": "dae6532494ff04327cda1e63bb7fdaa8cf5b74ba",
+      "commit": "147c71262de71b08859daaee641f8b2072d535a0",
       "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "dirty": false,
       "untracked": {}
@@ -335,7 +335,7 @@
       "untracked": {}
     }
   },
-  "run_id": "34713686821",
+  "run_id": "35032516374",
   "schema": 1,
   "target": {
     "artifact-name": "MKB_R_MODULE_PAW3222",
