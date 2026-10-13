@@ -403,7 +403,7 @@ jobs:
             -b "$BOARD" \
             "${west_args[@]}" \
             -- \
-            -DZMK_CONFIG="$base_dir/$CONFIG_DIR" \
+            -DZMK_CONFIG="$GITHUB_WORKSPACE/$CONFIG_DIR" \
             "${shield_args[@]}" \
             "${zmk_load_args[@]}" \
             -DCMAKE_C_COMPILER_LAUNCHER=ccache \
