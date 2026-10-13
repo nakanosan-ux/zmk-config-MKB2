@@ -64,19 +64,6 @@ include:
     artifact-name: MKB_R_MODULE_PAW3222_NOLOG
 
 
-  # Isolated nine-layer Windows/iPad dual-profile builds; existing targets unchanged.
-  - board: seeeduino_xiao_ble
-    shield: MKB_L_Base MKB_L_ENC_ECDBG rgbled_adapter
-    snippet: Default NOLOG
-    config-dir: config-ipad
-    artifact-name: MKB_L_MODULE_ENC_ECDBG_NOLOG_IPAD9
-
-  - board: seeeduino_xiao_ble
-    shield: MKB_R_Base MKB_R_PAW3222 rgbled_adapter
-    snippet: NOLOG
-    config-dir: config-ipad
-    artifact-name: MKB_R_MODULE_PAW3222_NOLOG_IPAD9
-
   # Settings Reset
   - board: seeeduino_xiao_ble
     shield: settings_reset
