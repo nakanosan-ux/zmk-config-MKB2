@@ -367,6 +367,7 @@ jobs:
           BUILD_SHIELD: ${{ matrix.shield }}
           SNIPPET: ${{ matrix.snippet }}
           CMAKE_ARGS: ${{ matrix['cmake-args'] }}
+          CONFIG_DIR: ${{ matrix['config-dir'] || 'config' }}
           CCACHE_DIR: ${{ github.workspace }}/.ccache
           CCACHE_MAXSIZE: 2G
           CCACHE_COMPILERCHECK: content
@@ -402,7 +403,7 @@ jobs:
             -b "$BOARD" \
             "${west_args[@]}" \
             -- \
-            -DZMK_CONFIG="$base_dir/config" \
+            -DZMK_CONFIG="$base_dir/$CONFIG_DIR" \
             "${shield_args[@]}" \
             "${zmk_load_args[@]}" \
             -DCMAKE_C_COMPILER_LAUNCHER=ccache \
