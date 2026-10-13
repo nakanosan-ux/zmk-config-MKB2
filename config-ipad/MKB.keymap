@@ -239,7 +239,7 @@
 &lt 5 TAB    &kp A      &kp S     &kp D      &kp F      &kp G            &kp H          &kp J          &kp K            &kp L          &mo 8              &kp ENTER
 &kp LSHFT    &kp Z      &kp X     &kp C      &kp V      &kp B            &kp N          &kp M          &kp COMMA        &mt RGUI DOT  &kp UP             &kp RIGHT_SHIFT
 &kp LGUI    &kp LCTRL   &kp LALT             &kp DEL    &lt 2 SPACE      &kp BACKSPACE  &kp ENTER                       &kp LEFT       &kp DOWN           &kp RIGHT
-&kp LG(Z)    &kp LG(C)  &none     &kp LG(V)  &kp LG(LS(Z))                                  &kp C_BRI_DEC  &kp C_VOLUME_UP  &none          &kp C_VOLUME_DOWN  &kp C_BRI_UP
+&kp LG(Z)    &kp LG(C)  &kp CAPS  &kp LG(V)  &kp LG(LS(Z))                                  &kp C_BRI_DEC  &kp C_VOLUME_UP  &kp LC(SPACE)  &kp C_VOLUME_DOWN  &kp C_BRI_UP
                                   &kp A                                                                &kp B
             >;
 
