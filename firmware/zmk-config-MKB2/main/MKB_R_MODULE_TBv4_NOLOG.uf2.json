@@ -5,7 +5,7 @@
   },
   "generated": {
     ".config": "457ee09a9111dfd179085945ee0e8a62612506761b286306848a861d44c51dc9",
-    "zephyr.dts": "6e4b561143134a13d4cc4cf7fbea3b097f874597ae019a7fdac97a2ce86a2cd0"
+    "zephyr.dts": "fc726ed342ec69f4b644145c401d9d1dd61c33fde3c5b19f53aa22be03001c7f"
   },
   "inputs": {
     "dependencies": {
@@ -244,7 +244,7 @@
         "untracked": {}
       },
       "zmk-analog-input-driver": {
-        "commit": "2684f22ee7e2168d4393f7e63676912210a796fc",
+        "commit": "c145ba92368ba4db7deefbca45c3cb8876a8961f",
         "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "dirty": false,
         "untracked": {}
@@ -274,7 +274,7 @@
         "untracked": {}
       },
       "zmk-layout-shift": {
-        "commit": "4d71f7cb743256ac619873dd44f510e9e9562739",
+        "commit": "c7f0c6b199548b542dd543e8a0bf3e2c8941780f",
         "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "dirty": false,
         "untracked": {}
@@ -323,7 +323,7 @@
       }
     },
     "source": {
-      "commit": "f72c622ee3f429b2fbd46fb4a656494664765a3b",
+      "commit": "3fa4f26fe0753d7c1be3751f6b9a8a68a9d7c78d",
       "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "dirty": false,
       "untracked": {}
@@ -335,7 +335,7 @@
       "untracked": {}
     }
   },
-  "run_id": "38447892455",
+  "run_id": "40075082478",
   "schema": 1,
   "target": {
     "artifact-name": "MKB_R_MODULE_TBv4_NOLOG",

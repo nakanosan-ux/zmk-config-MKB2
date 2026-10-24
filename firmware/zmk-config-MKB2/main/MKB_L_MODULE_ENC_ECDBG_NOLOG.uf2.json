@@ -1,11 +1,11 @@
 {
   "artifact": {
     "name": "MKB_L_MODULE_ENC_ECDBG_NOLOG.uf2",
-    "sha256": "5be16bfba045bdf8157f7bdb1f9ff5eb69c22283d00e8ac67f7a76dd4e90c1f1"
+    "sha256": "363665c5dd4ad6dd744f0e80b56b606749481bf05a7371dcb92d6f726433dbee"
   },
   "generated": {
     ".config": "75e5d3c278ace37b1703504d41d289817f2462a719f7296ce02f5aef27a5d01f",
-    "zephyr.dts": "aa589db4fe633132decc7694cd9a3a606796dcbd1129b6d30cf2818e7acfe537"
+    "zephyr.dts": "68c170c639ce8a48e2c6871896f98329f80b67fa575dce87b136942ec9fd0500"
   },
   "inputs": {
     "dependencies": {
@@ -244,7 +244,7 @@
         "untracked": {}
       },
       "zmk-analog-input-driver": {
-        "commit": "2684f22ee7e2168d4393f7e63676912210a796fc",
+        "commit": "c145ba92368ba4db7deefbca45c3cb8876a8961f",
         "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "dirty": false,
         "untracked": {}
@@ -274,7 +274,7 @@
         "untracked": {}
       },
       "zmk-layout-shift": {
-        "commit": "4d71f7cb743256ac619873dd44f510e9e9562739",
+        "commit": "c7f0c6b199548b542dd543e8a0bf3e2c8941780f",
         "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "dirty": false,
         "untracked": {}
@@ -323,7 +323,7 @@
       }
     },
     "source": {
-      "commit": "f72c622ee3f429b2fbd46fb4a656494664765a3b",
+      "commit": "3fa4f26fe0753d7c1be3751f6b9a8a68a9d7c78d",
       "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "dirty": false,
       "untracked": {}
@@ -335,7 +335,7 @@
       "untracked": {}
     }
   },
-  "run_id": "38447892455",
+  "run_id": "40075082478",
   "schema": 1,
   "target": {
     "artifact-name": "MKB_L_MODULE_ENC_ECDBG_NOLOG",
