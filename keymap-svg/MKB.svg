@@ -2081,6 +2081,34 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect class="combo-label-bg" x="709.5" y="69" width="45" height="16" rx="8" ry="8"/>
 <text class="combo-label" x="732" y="77">TOG 6</text>
 </g>
+<g class="combo combo-endhe">
+<polyline points="888,194 888,246"/>
+<circle class="combo-dot" cx="888" cy="194" r="3.2"/>
+<circle class="combo-dot" cx="888" cy="246" r="3.2"/>
+<rect class="combo-label-bg" x="871.7" y="173" width="32.6" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="888" y="181">END</text>
+</g>
+<g class="combo combo-homehe">
+<polyline points="784,246 888,194"/>
+<circle class="combo-dot" cx="784" cy="246" r="3.2"/>
+<circle class="combo-dot" cx="888" cy="194" r="3.2"/>
+<rect class="combo-label-bg" x="816.6" y="173" width="38.8" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="836" y="181">HOME</text>
+</g>
+<g class="combo combo-kl_iPad">
+<polyline points="732,142 784,142"/>
+<circle class="combo-dot" cx="732" cy="142" r="3.2"/>
+<circle class="combo-dot" cx="784" cy="142" r="3.2"/>
+<rect class="combo-label-bg" x="735.5" y="121" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="758" y="129">LANG1</text>
+</g>
+<g class="combo combo-sd_iPad">
+<polyline points="160,142 212,142"/>
+<circle class="combo-dot" cx="160" cy="142" r="3.2"/>
+<circle class="combo-dot" cx="212" cy="142" r="3.2"/>
+<rect class="combo-label-bg" x="163.5" y="121" width="45" height="16" rx="8" ry="8"/>
+<text class="combo-label" x="186" y="129">LANG2</text>
+</g>
 </g>
 <g class="layer layer-iPadMouse" transform="translate(0 3064)">
 <text class="title" x="30" y="10">iPadMouse</text>
