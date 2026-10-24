@@ -205,12 +205,23 @@
 
         iPad {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans          &trans  &trans      &trans  &trans          &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-                        &trans                                      &trans
+&lt 1 CAPS  &trans     &trans  &trans     &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans     &trans  &trans     &trans         &trans      &trans  &trans  &trans  &trans  &mo 8   &trans
+&trans      &trans     &trans  &trans     &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCMD    &kp LCTRL  &trans             &trans         &trans      &trans  &trans          &trans  &trans  &trans
+&kp LG(Z)   &kp LG(C)  &trans  &kp LG(V)  &kp LS(LG(Z))                      &trans  &trans  &trans  &trans  &trans
+                               &trans                                                &trans
+            >;
+        };
+
+        iPadMouse {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LS(LC(TAB))  &trans    &kp LC(TAB)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB1         &mkp MB3  &mkp MB2     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LG(TAB)      &trans    &trans       &trans  &trans
+&trans  &trans  &trans          &trans  &trans      &trans  &trans                     &trans       &trans  &trans
+&trans  &trans  &trans  &trans  &trans                      &trans           &trans    &trans       &trans  &trans
+                        &trans                                               &trans
             >;
         };
     };
