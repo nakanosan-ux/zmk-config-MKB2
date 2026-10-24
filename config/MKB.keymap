@@ -55,13 +55,25 @@
         endhe {
             bindings = <&kp END>;
             key-positions = <35 45>;
-            layers = <0>;
+            layers = <0 7>;
         };
 
         homehe {
             bindings = <&kp HOME>;
             key-positions = <43 35>;
-            layers = <0>;
+            layers = <0 7>;
+        };
+
+        kl_iPad {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <20 21>;
+            layers = <7>;
+        };
+
+        sd_iPad {
+            bindings = <&kp LANG2>;
+            key-positions = <14 15>;
+            layers = <7>;
         };
     };
 
