@@ -1834,7 +1834,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <text class="subtitle" x="30" y="28">58 bindings</text>
 <g class="key keypos-0 " transform="translate(30 64) rotate(0 0 0)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="20">CAPS</text>
+<text class="tap" x="26" y="20">LC(SPACE)</text>
 <text class="hold" x="26" y="37">LT 1</text>
 </g>
 <g class="key keypos-1 transparent" transform="translate(82 64) rotate(0 -52 0)">
