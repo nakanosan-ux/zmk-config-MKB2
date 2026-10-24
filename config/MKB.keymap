@@ -202,5 +202,16 @@
                 <&inc_dec_kp LEFT RIGHT_ARROW>,
                 <&inc_dec_kp PG_UP PG_DN>;
         };
+
+        iPad {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans          &trans  &trans      &trans  &trans          &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+                        &trans                                      &trans
+            >;
+        };
     };
 };
