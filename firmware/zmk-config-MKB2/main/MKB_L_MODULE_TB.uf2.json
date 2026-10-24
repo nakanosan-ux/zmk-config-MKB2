@@ -1,11 +1,11 @@
 {
   "artifact": {
     "name": "MKB_L_MODULE_TB.uf2",
-    "sha256": "91f50db9f34bf72540d343a7246e47f3bd1c45945f81daf01e3abdd4cc03cf60"
+    "sha256": "f14bcec8752a883e4a042bf267022123594e0252efd50044fac7fc5f6116d1f0"
   },
   "generated": {
     ".config": "cd1c692be1216e709a6e82eaef6cba74a8bbe759d2eb7a93e573ae6e8feac841",
-    "zephyr.dts": "88f6cae8b0b66af1088fb9b61b4e8f3219a93f31144cf4e3ebd7e55f2bffc43f"
+    "zephyr.dts": "abea866477dc807b3ea268b972e99b041952f6748773c14122e739ad4e6d1a49"
   },
   "inputs": {
     "dependencies": {
@@ -323,7 +323,7 @@
       }
     },
     "source": {
-      "commit": "3fa4f26fe0753d7c1be3751f6b9a8a68a9d7c78d",
+      "commit": "5c76a80e1216c918079a4793a81d20c092223910",
       "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "dirty": false,
       "untracked": {}
@@ -335,7 +335,7 @@
       "untracked": {}
     }
   },
-  "run_id": "40075082478",
+  "run_id": "40078788068",
   "schema": 1,
   "target": {
     "artifact-name": "MKB_L_MODULE_TB",
