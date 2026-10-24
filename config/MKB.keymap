@@ -219,12 +219,12 @@
 
         iPad {
             bindings = <
-&lt 1 CAPS  &trans     &trans  &trans     &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&lt 5 TAB   &trans     &trans  &trans     &trans         &trans      &trans  &trans  &trans  &trans  &mo 8   &trans
-&trans      &trans     &trans  &trans     &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCMD    &kp LCTRL  &trans             &trans         &trans      &trans  &trans          &trans  &trans  &trans
-&kp LG(Z)   &kp LG(C)  &trans  &kp LG(V)  &kp LS(LG(Z))                      &trans  &trans  &trans  &trans  &trans
-                               &trans                                                &trans
+&lt 1 LC(SPACE)  &trans     &trans  &trans     &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&lt 5 TAB        &trans     &trans  &trans     &trans         &trans      &trans  &trans  &trans  &trans  &mo 8   &trans
+&trans           &trans     &trans  &trans     &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCMD         &kp LCTRL  &trans             &trans         &trans      &trans  &trans          &trans  &trans  &trans
+&kp LG(Z)        &kp LG(C)  &trans  &kp LG(V)  &kp LS(LG(Z))                      &trans  &trans  &trans  &trans  &trans
+                                    &trans                                                &trans
             >;
         };
 
