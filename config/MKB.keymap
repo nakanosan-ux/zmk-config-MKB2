@@ -72,6 +72,20 @@
             bindings = <&kp INT_MUHENKAN &kp LA(LS(MINUS)) &kp SPACE &kp SPACE &kp LEFT>;
             label = "SUUSIKIWORD";
         };
+
+        BT_iPad: BT_iPad {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 1 &to 7>;
+            label = "BT_IPAD";
+        };
+
+        BT_Windows: BT_Windows {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 0 &to 0>;
+            label = "BT_WINDOWS";
+        };
     };
 
     behaviors {
