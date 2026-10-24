@@ -1332,13 +1332,11 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-1 " transform="translate(82 64) rotate(0 -52 0)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="20">BT_SEL 0</text>
-<text class="hold" x="26" y="37">BT</text>
+<text class="tap" x="26" y="26">BT_Windows</text>
 </g>
 <g class="key keypos-2 " transform="translate(134 64) rotate(0 -104 0)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="20">BT_SEL 1</text>
-<text class="hold" x="26" y="37">BT</text>
+<text class="tap" x="26" y="26">BT_iPad</text>
 </g>
 <g class="key keypos-3 " transform="translate(186 64) rotate(0 -156 0)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
@@ -1883,9 +1881,10 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
 <text class="tap" x="26" y="26">TRANS</text>
 </g>
-<g class="key keypos-12 transparent" transform="translate(30 116) rotate(0 0 -52)">
+<g class="key keypos-12 " transform="translate(30 116) rotate(0 0 -52)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="26">TRANS</text>
+<text class="tap" x="26" y="20">TAB</text>
+<text class="hold" x="26" y="37">LT 5</text>
 </g>
 <g class="key keypos-13 transparent" transform="translate(82 116) rotate(0 -52 -52)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
