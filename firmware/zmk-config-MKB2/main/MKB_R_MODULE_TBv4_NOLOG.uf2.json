@@ -1,11 +1,11 @@
 {
   "artifact": {
     "name": "MKB_R_MODULE_TBv4_NOLOG.uf2",
-    "sha256": "6546d57631da11cfb8cb45a7ed15c279c30bc94404db512e96ee13af95c3acc6"
+    "sha256": "933c95fccaaa09f087c239f02c90551a9993f10fb1beed6e328f0105573fa597"
   },
   "generated": {
     ".config": "b75d46a7f65f2ce3fc00d2641826c408aa8918b366b458b8d92ced5b92eb5c16",
-    "zephyr.dts": "bbc1d7a06421dfb5b7988e79f34efc8ea33f838af7f1c2437c50be1a7515d3a8"
+    "zephyr.dts": "de6acf278f61dada5473eb39e4e0db5d9ccc874448fad3c7368a9b7038b4c5bd"
   },
   "inputs": {
     "dependencies": {
@@ -323,7 +323,7 @@
       }
     },
     "source": {
-      "commit": "cf395033e1e16f6f39149d543f6c875824e8f38e",
+      "commit": "cb6ebda02d03a48463fa290e907a58ed4b6d9292",
       "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "dirty": false,
       "untracked": {}
@@ -335,7 +335,7 @@
       "untracked": {}
     }
   },
-  "run_id": "40114933783",
+  "run_id": "40164227024",
   "schema": 1,
   "target": {
     "artifact-name": "MKB_R_MODULE_TBv4_NOLOG",
